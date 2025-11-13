@@ -1,0 +1,14 @@
+# Ignore the entire WESAD dataset folder
+WESAD/
+
+# Ignore Python's cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders (if you use one)
+.venv/
+venv/
+env/
+
+# Ignore any local environment variables
+.env
