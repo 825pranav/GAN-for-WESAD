@@ -69,3 +69,15 @@ This script:
 Run:
 ```bash
 python3 timegan.py
+```
+#### Step 3: Evaluate the Results
+
+This will:
+
+* Load real + synthetic data
+* Reverse the scaling
+* Generate a comparison plot → `synthetic_comparison.png`
+
+Run:
+```bash
+python3 evaluate.py
