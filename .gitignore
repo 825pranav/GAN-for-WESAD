@@ -1,14 +1,27 @@
-# Ignore the entire WESAD dataset folder
+# Ignore the raw dataset folder
 WESAD/
 
-# Ignore Python's cache files
+# Ignore Python's cache
 __pycache__/
 *.pyc
 
-# Ignore virtual environment folders (if you use one)
-.venv/
+# Ignore virtual environment folders (like your 'Lib' folder)
+Lib/
 venv/
+.venv/
 env/
 
-# Ignore any local environment variables
-.env
+# Ignore large processed data files
+*.npy
+
+# Ignore trained model weights
+*.pth
+
+# Ignore the saved scaler
+*.gz
+
+# Ignore generated plots
+*.png
+
+# Ignore OS-specific files
+.DS_Store
